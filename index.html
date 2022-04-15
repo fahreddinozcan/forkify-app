@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="js/controller.js" type="module"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <title>Restaurant Menu</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-page">
+        <div class="header-div">
+          <img src="logo.png" alt="forkify logo" class="logo" />
+          <form class="search-div">
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search over 1 million recipees..."
+            />
+            <button class="search-button">
+              <i class="ph-magnifying-glass-bold search-icon"></i>
+              <p class="search-button-text">Search</p>
+            </button>
+          </form>
+          <div class="recip-btns">
+            <button class="add-btn header-btn">
+              <i class="ph-note-pencil-bold recip-btn-icon"></i>
+              <p class="add-btn-txt header-btn-text">ADD RECIPE</p>
+            </button>
+            <button class="bookmark-btn header-btn">
+              <i class="ph-bookmark-simple-bold recip-btn-icon"></i>
+              <p class="bookmark-btn-txt header-btn-text">BOOKMARKS</p>
+              <div class="bookmarks">
+                <!-- <div class="bookmark">
+                  <figure class="result-recipe-img-div">
+                    <img src="steak-food.jpg" class="result-recipe-img" />
+                  </figure>
+                  <div class="result-recipe-text">
+                    <div class="result-recipe-name">Steak Food</div>
+                    <div class="result-recipe-source">Steamy Chicken</div>
+                  </div>
+                </div> -->
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="search-results">
+          <div class="all-recipes">
+            <!-- <a href="#5ed6604591c37cdc054bc90b">LINK 1</a>
+            <a href="#5ed6604591c37cdc054bc886">LINK 1</a> -->
+            <!-- <div class="result-recipe">
+              <figure class="result-recipe-img-div">
+                <img src="steak-food.jpg" class="result-recipe-img" />
+              </figure>
+
+              <div class="result-recipe-text">
+                <div class="result-recipe-name">Steak Food</div>
+                <div class="result-recipe-source">Steamy Chicken</div>
+              </div>
+            </div>
+            <div class="result-recipe">
+              <div class="result-recipe-img-div"></div>
+
+              <div class="result-recipe-text">
+                <div class="result-recipe-name">Steak Food</div>
+                <div class="result-recipe-source">Steamy Chicken</div>
+              </div>
+            </div>
+            <div class="result-recipe">
+              <div class="result-recipe-img-div"></div>
+
+              <div class="result-recipe-text">
+                <div class="result-recipe-name">Steak Food</div>
+                <div class="result-recipe-source">Steamy Chicken</div>
+              </div>
+            </div> -->
+          </div>
+          <div class="search-bottom">
+            <div class="page-btns">
+              <!-- <button class="page-back-btn page-btn">
+                <i class="ph-arrow-left-bold page-icon"></i>
+                <p class="page-btn-text">Page 1</p>
+              </button>
+              <button class="page-forward-btn page-btn btn-forward">
+                <p class="page-btn-text">Page 3</p>
+                <i class="ph-arrow-right-bold page-icon"></i>
+              </button> -->
+            </div>
+            <div class="copyright-text-div">
+              <p class="copyright-text">
+                © Copyright by Fahreddin Ozcan. Use for learning or your
+                portfolio. Don't use to teach. Don't claim as your own.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="recipe-page"></div>
+      </div>
+    </div>
+  </body>
+</html>
